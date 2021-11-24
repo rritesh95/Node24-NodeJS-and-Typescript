@@ -1,0 +1,11 @@
+Typescript is a superset of javascript or you can say extention of javascript. Typescript does not run in browser instead it has to be compiled to javascript so that it can run again. It helps us write code in better way and help us avoid unneccessory errors. It gives some flexibilities in writing code which only required during development.
+
+
+npm install --save-dev @types/node
+
+above package provides nodeJS translation to typescript and allow us to write nodeJS specific code in typescript file.
+
+while using typescript for nodeJS code to use 'import' we need not have to modify 'package.json'
+
+npm install --save-dev @types/express - for "express" translation while working with typescript project
+npm install --save-dev @types/body-parser - for "body-parser" translation while working with typescript project
